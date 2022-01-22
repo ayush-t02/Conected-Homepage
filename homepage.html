@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Conected</title>
+</head>
+
+<body>
+
+    <div class="landing">
+        <div class="layer">
+            <div class="vertical"></div>
+            <div class="vert2"></div>
+            <nav class="navbar_main">
+                <div class="logo"><img src="./About us/conected logo W.png" alt="" srcset=""></div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="art_links">
+                    <ul>
+                        <li><a href="#" class="not_btn">About Us</a></li>
+                        <li><a href="#" class="not_btn">Partners</a></li>
+                        <li><a href="#" class="not_btn">Careers</a></li>
+                        <div class="stay-btn">
+                            <li><a href="#">Stay tuned</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="connect">
+                <p class="connecting"><span>Connecting to </span>a new world</p>
+
+                <div class="connect2">
+                    <p>A common place to gather and learn more than what academics gives you.</p>
+                </div>
+            </div>
+
+            <div class="scroll">
+                <div class="scrolling">
+                    <a href="#why"><img src="./Conected Assests/Mouse-Scroll.gif" alt="scroll-gif"></a>
+                </div>
+
+                <div class="icons">
+                    <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/company/conected-edu/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="why" id="why">
+        <div class="learn-box">
+            <div class="collab">
+                <p>We are here for the collaborations which will open the barriers for people to come together with their interests.
+                </p>
+            </div>
+
+            <div class="learn-btn">
+                <button>Learn more</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="one">
+                <h1>Why Conected?</h1>
+                <p>Building your own network</p>
+            </div>
+            <div class="two">
+                <div class="first">
+                    <h3>Friendly opportunities</h3>
+                    <p>Be a part of any university committee or club</p> <br><br>
+                    <hr>
+                </div>
+                <div class="second">
+                    <h3>Access to worldwide content</h3>
+                    <p>Liberty to participate in wide variety of seminars and conferences.</p> <br><br>
+                    <hr>
+                </div>
+                <div class="third">
+                    <h3>Zero charges</h3>
+                    <p>Get access to "Conected Education" without spending a dime</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-section">
+        <div class="explore">
+            <h3>Explore Our Features</h3>
+        </div>
+
+        <div class="cards">
+            <div class="card1">
+                <img src="./Conected Assests/passion.png" alt="...">
+                <p>Know your Passion</p>
+            </div>
+
+            <div class="card1">
+                <img src="./Conected Assests/people.png" alt="..." class="people" id="people">
+                <p>Meet people in your domain</p>
+            </div>
+
+            <div class="card1">
+                <img src="./Conected Assests/ideas.png" alt="...">
+                <p>Publish your ideas</p>
+            </div>
+
+            <div class="card1">
+                <img src="./Conected Assests/blog.png" alt="...">
+                <p class="blog-txt">Write your own blog</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="trial"></div>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('art_links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
