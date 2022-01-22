@@ -58,6 +58,7 @@ body {
 
 .logo {
     height: 13vh;
+    margin-left: -5rem;
 }
 
 .logo img {
